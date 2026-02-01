@@ -1,7 +1,13 @@
-numbers = [5, 10, 15, 20]
+numbers = list(range(1, 21))
 
-total = 0
+even = []
+odd = []
+
 for n in numbers:
-    total += n
+    if n % 2 == 0:
+        even.append(n)
+    else:
+        odd.append(n)
 
-print("Sum of list:", total)
+print("Even numbers:", even)
+print("Odd numbers:", odd)
