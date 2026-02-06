@@ -10,6 +10,7 @@ print(point)
 #dictionary
 student={"name":"radha","age":20,"grade":"A"}
 print(student)
+print(student["name"])
 
 #set
 num={1,2,3,4,5,1,3}
